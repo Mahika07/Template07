@@ -1,0 +1,63 @@
+ @media screen and (max-width: 992px) {
+    .d-lptp {
+       display: none;
+    }
+
+    .d-mob {
+       display: block;
+    }
+
+    .section1 {
+       background-color: #373A40;
+    }
+
+    .card {
+       height: auto;
+    }
+
+    .contact_heading {
+       font-size: 6vw;
+    }
+
+    .project_container {
+       border-bottom: 2px solid;
+       border-top: 2px solid;
+    }
+
+    .home_conatiner {
+       margin-top: 40vh;
+    }
+
+    .home_heading {
+       font-size: 7vw;
+    }
+
+    .home_subtitle {
+       font-size: 3.2vw;
+    }
+
+    .home_para {
+       font-size: 2.5vw;
+
+    }
+
+    .icon_box {
+       justify-content: center;
+    }
+ }
+
+ @media screen and (max-width: 577px) {
+    .about_title {
+       text-align: center;
+    }
+
+    .resume_btn {
+       width: 90%;
+       margin: 10px auto;
+    }
+
+    .footer_links {
+       flex-direction: column;
+       text-align: center;
+    }
+ }
